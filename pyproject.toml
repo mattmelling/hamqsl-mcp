@@ -1,0 +1,18 @@
+[project]
+name = "hamqsl-mcp"
+version = "0.0.1"
+requires-python = ">= 3.8"
+authors = [
+    { name = "Matt G4IYT", email = "matt@g4iyt.uk" }
+]
+readme = "README.md"
+dependencies = [
+    "requests",
+    "requests-cache",
+    "fastmcp",
+    "bs4",
+    "lxml"
+]
+
+[project.scripts]
+hamqsl-mcp = "hamqsl_mcp.__main__:main"
