@@ -16,3 +16,4 @@ dependencies = [
 
 [project.scripts]
 hamqsl-mcp = "hamqsl_mcp.__main__:main"
+hamqsl-mcp-http = "hamqsl_mcp.__main__:main_http"
