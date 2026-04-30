@@ -68,7 +68,7 @@ async def get_sunspots() -> str:
 
     Use this to inform analysis of band conditions, propagation, or space weather.
     """
-    return get_hamqsl_field('xray')
+    return get_hamqsl_field('sunspots')
 
 @mcp.tool()
 async def get_proton_flux() -> str:
